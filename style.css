@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;}
+
+.toggle-icon,.search-icon
+{padding: 20px 0;
+width: 100%;
+cursor: pointer;
+}
+.toggle-icon span 
+{font-size: 20px;
+border-radius: 50%;
+height: 40px !important;
+width: 40px;
+display: block;
+text-align: center;
+line-height: 40px;
+background: #fff;
+transition: .5s ease-in-out;
+}
+.sidbar-nav
+{position: fixed;
+height: 100vh;
+background: linear-gradient(90deg, 
+rgba(49,170,226,0.7287289915966386) 6%, 
+rgba(28,97,129,0.6979166666666667) 38%, 
+rgba(0,0,0,0.45702030812324934) 95%);
+top: 0;
+width: 40%;  /* ширина панельки */
+display: none;
+padding: 20px 60px; /* крестик */
+z-index: 5;
+text-align: center;
+}
+.close-icon span  
+{font-size: 20px;
+border-radius: 50%;
+height: 40px !important; /* крестик в кружке*/
+width: 40px;
+display: block;
+text-align: center;
+line-height: 40px;
+background: #fff;
+margin-left: 3%;  /* крестик */
+cursor: pointer;
+transition: .5s ease-in-out;
+}
+.close-icon span:hover
+{background: #8ec6ff; color: #fff;}
+.toggle-icon span:hover
+{background: #86c875; color: #fff;}
+
