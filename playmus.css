@@ -12,6 +12,14 @@ color: #e7cd78;
 font-size: 26px;
 }
 .audiolist:hover{color: #ee9090;}
+*{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+  
 .containermus { margin-left: 4.8rem;
   display: block;
   align-items: center;
